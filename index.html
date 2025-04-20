@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stop Bullying</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-red-600 via-pink-500 to-purple-500 text-white p-4 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">#AkhiriBullying</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:underline">Tentang</a>
+        <a href="#aksi" class="hover:underline">Aksi</a>
+        <a href="#form-laporan" class="hover:underline">Lapor</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-[60vh] flex items-center justify-center text-white" style="background-image: url('https://images.unsplash.com/photo-1588776814546-4a2cb8bd0a72');">
+    <div class="bg-black bg-opacity-60 p-6 rounded-xl text-center max-w-xl">
+      <h2 class="text-4xl font-bold mb-4">Stop Bullying Sekarang!</h2>
+      <p class="text-lg">Karena semua orang berhak merasa aman, dihargai, dan bahagia di mana pun mereka berada.</p>
+    </div>
+  </section>
+
+  <!-- Tentang Section -->
+  <section id="about" class="py-12 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-4">Apa itu Bullying?</h3>
+      <p class="mb-4 leading-relaxed text-lg">
+        Bullying bukan sekadar bercanda. Ia adalah perilaku kasar yang dilakukan berulang kali dan bisa melukai secara fisik maupun mental. Entah itu mengolok, menjatuhkan, atau menyakiti—semua termasuk bullying.
+      </p>
+      <p class="text-lg">
+        Mungkin kamu pernah dengar “ah, dia kan cuma bercanda.” Tapi kenyataannya, nggak semua orang bisa menerima “candaan” itu. Jadi, yuk lebih peka dan belajar bareng.
+      </p>
+    </div>
+  </section>
+
+  <!-- Aksi Section -->
+  <section id="aksi" class="bg-purple-50 py-12 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-6">Apa yang Bisa Kamu Lakukan?</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-5 rounded-lg shadow-md">
+          <h4 class="font-bold text-red-600 mb-2">Edukasi Diri</h4>
+          <p>Buka mata dan telinga. Cari tahu jenis-jenis bullying dan dampaknya. Dengan begitu, kamu bisa tahu kapan harus bertindak.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-md">
+          <h4 class="font-bold text-red-600 mb-2">Berani Bicara</h4>
+          <p>Jangan diam! Jika melihat bullying, katakan tidak dan bantu korban dengan cara yang aman.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-md">
+          <h4 class="font-bold text-red-600 mb-2">Dukung Korban</h4>
+          <p>Jadilah teman yang baik. Dengar, temani, dan bantu mereka merasa aman lagi. Kadang, satu senyuman bisa menyelamatkan hari seseorang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulir -->
+  <section id="form-laporan" class="py-12 px-6 bg-white">
+    <div class="max-w-4xl mx-auto bg-gray-100 p-6 rounded-xl shadow-md">
+      <h3 class="text-2xl font-semibold mb-6 text-center text-red-700">Form Laporan Bullying</h3>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSe04QvtCRH8MAQh9zF_O-q60cmsK5jVDBqSA5xPDjDaUJHmIA/formResponse" method="POST" class="space-y-4">
+        <input type="text" name="entry.1444912270" placeholder="Nama Pelapor (Opsional)" class="w-full p-3 rounded border" />
+        <select name="entry.104578546" required class="w-full p-3 rounded border bg-white">
+          <option value="">Pilih Jenis Bullying</option>
+          <option value="Fisik">Fisik</option>
+          <option value="Verbal">Verbal</option>
+          <option value="Sosial">Sosial</option>
+          <option value="Daring">Daring (Cyberbullying)</option>
+        </select>
+        <textarea name="entry.1003143052" rows="4" placeholder="Deskripsi Kejadian" required class="w-full p-3 rounded border"></textarea>
+        <input type="text" name="entry.993371516" placeholder="Lokasi Kejadian" required class="w-full p-3 rounded border" />
+        <select name="entry.1994533126" required class="w-full p-3 rounded border bg-white">
+          <option value="">Korban mengalami cedera?</option>
+          <option value="Ya">Ya</option>
+          <option value="Tidak">Tidak</option>
+          <option value="Mungkin">Mungkin</option>
+        </select>
+        <input type="text" name="entry.239734944" placeholder="Kontak Pelapor (Opsional)" class="w-full p-3 rounded border" />
+        <button type="submit" class="bg-red-600 text-white font-semibold w-full p-3 rounded hover:bg-red-700">Kirim Laporan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-12">
+    <p>&copy; 2025 Stop Bullying. Dibuat oleh Dedi dengan semangat perubahan.</p>
+  </footer>
+
+</body>
+</html>
