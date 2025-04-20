@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stop Bullying</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">  <!-- Header -->  <header class="bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 text-white p-4 shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-extrabold tracking-wide">Stop Bullying</h1>
+      <nav class="space-x-4 text-sm font-semibold">
+        <a href="#about" class="hover:underline">Tentang</a>
+        <a href="#aksi" class="hover:underline">Aksi</a>
+        <a href="#form-laporan" class="hover:underline">Lapor</a>
+      </nav>
+    </div>
+  </header>  <!-- Hero Section -->  <section class="bg-cover bg-center h-[60vh] flex items-center justify-center text-white" style="background-image: url('https://images.unsplash.com/photo-1588776814546-4a2cb8bd0a72');">
+    <div class="bg-black bg-opacity-50 p-6 rounded-xl text-center max-w-xl">
+      <h2 class="text-4xl font-bold mb-4">Akhiri Bullying, Mulai Hari Ini</h2>
+      <p class="text-lg">Bersama kita bisa menciptakan lingkungan yang aman dan saling menghargai.</p>
+    </div>
+  </section>  <!-- Tentang Section -->  <section id="about" class="py-12 px-4 md:px-8">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-4">Apa itu Bullying?</h3>
+      <p class="text-lg mb-4">
+        Bullying itu bukan cuma bercandaan. Kalau bercanda bikin nangis, itu udah bukan lucu, itu luka. Serius.
+      </p>
+      <p class="text-lg">
+        Intinya, bullying itu tindakan kasar yang bisa bikin orang trauma. Entah itu fisik, verbal, sosial, atau online. Yuk, jangan jadi pelaku. Jadi pelindung lebih keren.
+      </p>
+    </div>
+  </section>  <!-- Aksi Section -->  <section id="aksi" class="bg-yellow-100 py-12 px-4 md:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-6">Apa yang Bisa Kita Lakukan?</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="font-bold mb-2">Edukasi Diri</h4>
+          <p>Baca, tonton, tanya. Jangan sampai jadi pelaku karena nggak tahu.</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="font-bold mb-2">Berani Bersikap</h4>
+          <p>Lihat bullying? Jangan diem aja. Speak up! Tapi tetap aman ya.</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="font-bold mb-2">Dukung Korban</h4>
+          <p>Dengarkan. Temani. Kadang cukup jadi pendengar udah luar biasa.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Form Laporan Bullying Section -->  <section id="form-laporan" class="py-12 px-4 md:px-8 bg-white">
+    <div class="max-w-4xl mx-auto bg-red-50 p-6 rounded-xl shadow-md">
+      <h3 class="text-2xl font-semibold mb-4 text-center">Form Laporan Bullying</h3>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSe04QvtCRH8MAQh9zF_O-q60cmsK5jVDBqSA5xPDjDaUJHmIA/formResponse" method="POST" class="space-y-4">
+        <div>
+          <label class="block mb-1 font-medium">Nama Pelapor (Opsional)</label>
+          <input type="text" name="entry.1444912270" class="w-full px-3 py-2 rounded border" placeholder="Boleh dikosongkan" />
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Jenis Bullying</label>
+          <select name="entry.104578546" required class="w-full px-3 py-2 rounded border">
+            <option value="">Pilih jenis bullying</option>
+            <option value="Fisik">Fisik</option>
+            <option value="Verbal">Verbal</option>
+            <option value="Sosial">Sosial</option>
+            <option value="Daring">Daring (Cyberbullying)</option>
+          </select>
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Deskripsi Kejadian</label>
+          <textarea name="entry.1003143052" rows="4" required class="w-full px-3 py-2 rounded border" placeholder="Ceritakan secara lengkap..."></textarea>
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Lokasi Kejadian</label>
+          <input type="text" name="entry.993371516" required class="w-full px-3 py-2 rounded border" />
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Apakah korban mengalami cedera serius?</label>
+          <select name="entry.1994533126" required class="w-full px-3 py-2 rounded border">
+            <option value="">Pilih jawaban</option>
+            <option value="Ya">Ya</option>
+            <option value="Tidak">Tidak</option>
+            <option value="Mungkin">Mungkin</option>
+          </select>
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Kontak Pelapor (Opsional)</label>
+          <input type="text" name="entry.239734944" class="w-full px-3 py-2 rounded border" placeholder="Email / No. HP jika ingin ditindaklanjuti" />
+        </div>
+        <button type="submit" class="w-full bg-red-600 text-white font-semibold py-2 rounded hover:bg-red-700">Kirim Laporan</button>
+      </form>
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-gray-800 text-white text-center p-4">
+    <p>&copy; 2025 Stop Bullying. Dibuat dengan hati oleh Dedi.</p>
+  </footer><script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+    const thankYouMessage = document.createElement("div");
+    thankYouMessage.innerHTML = "<p class='text-green-600 text-lg font-semibold mt-4'>Terima kasih! Laporan kamu sudah kami terima.</p>";
+    thankYouMessage.style.display = "none";
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: "POST",
+        mode: "no-cors",
+        body: data,
+      })
+      .then(() => {
+        form.reset();
+        form.style.display = "none";
+        form.parentElement.appendChild(thankYouMessage);
+        thankYouMessage.style.display = "block";
+      })
+      .catch(err => {
+        alert("Ada kesalahan saat mengirim. Coba lagi.");
+        console.error(err);
+      });
+    });
+  });
+</script></body>
+</html>
